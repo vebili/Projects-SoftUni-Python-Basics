@@ -6,9 +6,6 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/test" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
-      <excludePattern pattern="convert.in" />
-      <excludePattern pattern="convert.out" />
-      <excludePattern pattern="convert.py" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.9" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
