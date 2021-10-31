@@ -12,6 +12,6 @@ for N_days in range(1, N_days + 1):
 
 
 if sum_all_kilometers >= 1000:
-            print(f"You've done a great job running {ceil(sum_all_kilometers - 1000)} more kilometers!")
+    print(f"You've done a great job running {ceil(sum_all_kilometers - 1000)} more kilometers!")
 else:
-            print(f"Sorry Mrs. Ivanova, you need to run {ceil(1000 - sum_all_kilometers)} more kilometers")
+    print(f"Sorry Mrs. Ivanova, you need to run {ceil(1000 - sum_all_kilometers)} more kilometers")
