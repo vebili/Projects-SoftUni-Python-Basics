@@ -24,4 +24,4 @@ while movie_name != 'Finish':
 print(f"Total tickets: {total_tickets}")
 print(f"{student / total_tickets * 100:.2f}% student tickets.")
 print(f"{standard / total_tickets * 100:.2f}% standard tickets.")
-print(f"{kid/ total_tickets * 100:.2f}% kids tickets.")
+print(f"{kid / total_tickets * 100:.2f}% kids tickets.")
