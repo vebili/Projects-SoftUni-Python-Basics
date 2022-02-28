@@ -11,7 +11,7 @@ while age_of_members_of_the_family != "Christmas":
     if age <= 16:
         below_16 += 1
     else:
-        over_16 +=1
+        over_16 += 1
     age_of_members_of_the_family = input()
 
 money_for_toys = below_16 * price_toy

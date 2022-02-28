@@ -11,4 +11,3 @@ for each_location in range(locations):
         print(f"Good job! Average gold per day: {average:.2f}.")
     else:
         print(f"You need {(gold_per_day_expected - average):.2f} gold.")
-
