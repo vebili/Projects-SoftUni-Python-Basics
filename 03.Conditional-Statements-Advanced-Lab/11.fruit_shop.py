@@ -2,6 +2,7 @@ fruit = input()
 day = input()
 quantity = float(input())
 price = 0
+
 if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' or day == 'Thursday' or day == 'Friday':
     if fruit == 'banana':
         price = quantity * 2.50

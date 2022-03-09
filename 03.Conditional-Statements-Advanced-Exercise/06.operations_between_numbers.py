@@ -3,6 +3,7 @@ n2 = int(input())
 operator = input()
 area = 0
 ev_od = 0
+
 if n2 == 0 and operator == '/' or n2 == 0 and operator == '%':
     print(f'Cannot divide {n1} by zero')
 elif operator == '-':

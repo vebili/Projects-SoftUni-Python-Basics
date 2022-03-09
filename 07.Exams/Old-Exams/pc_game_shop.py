@@ -14,6 +14,7 @@ for game in range(sale_game):
         overwatch_counter += 1
     else:
         others_counter += 1
+
 print(f'Hearthstone - {hearthstone_counter / sale_game * 100:.2f}%')
 print(f'Fornite - {fornite_counter / sale_game * 100:.2f}%')
 print(f'Overwatch - {overwatch_counter / sale_game * 100:.2f}%')

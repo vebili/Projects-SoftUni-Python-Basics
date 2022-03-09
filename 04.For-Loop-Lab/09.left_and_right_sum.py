@@ -1,6 +1,7 @@
 number = int(input())
 area_left = 0
 area_right = 0
+
 for x in range(number):
     number_left = int(input())
     area_left += number_left

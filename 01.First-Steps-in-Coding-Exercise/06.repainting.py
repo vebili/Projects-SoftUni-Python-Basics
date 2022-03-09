@@ -4,7 +4,7 @@ thinner_in_l = int(input())
 hours_of_work = int(input())
 
 sum_nylon = (nylon_needed + 2) * 1.50
-sum_paint_in_l = (paint_in_l + (paint_in_l*(10/100))) * 14.50
+sum_paint_in_l = (paint_in_l + (paint_in_l * (10 / 100))) * 14.50
 sum_thinner_in_l = thinner_in_l * 5
 sum_bags = 0.4
 

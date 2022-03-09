@@ -4,6 +4,7 @@ n = int(input())
 
 max_number = -sys.maxsize
 sum_numbers = 0
+
 for x in range(n):
     number = int(input())
     sum_numbers += number

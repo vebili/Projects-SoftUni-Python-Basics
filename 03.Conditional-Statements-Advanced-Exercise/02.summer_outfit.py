@@ -2,6 +2,7 @@ temperature = int(input())
 time_of_day = input()
 outfit = 0
 shoes = 0
+
 if 10 <= temperature <= 18:
     if time_of_day == 'Morning':
         outfit = 'Sweatshirt'
@@ -32,4 +33,5 @@ elif temperature >= 25:
     if time_of_day == 'Evening':
         outfit = 'Shirt'
         shoes = 'Moccasins'
+
 print(f"It's {temperature} degrees, get your {outfit} and {shoes}.")

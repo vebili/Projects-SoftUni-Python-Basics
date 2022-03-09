@@ -2,6 +2,7 @@ product = input()
 city = input()
 count = float(input())
 price = 0
+
 if city == 'Sofia':
     if product == 'coffee':
         price = count * 0.5

@@ -7,6 +7,7 @@ price_per_video_card = 250 * video_card
 price_per_processor = price_per_video_card * 0.35
 price_per_ram = price_per_video_card * 0.1
 total_price = price_per_video_card + price_per_processor * processor + price_per_ram * ram
+
 if video_card > processor:
     total_price *= 0.85
 total = abs(budget - total_price)

@@ -1,6 +1,7 @@
 change = float(input())
 change = int(change * 100)
 coins_counter = 0
+
 while change > 0:
     if change - 200 >= 0:
         coins_counter += 1

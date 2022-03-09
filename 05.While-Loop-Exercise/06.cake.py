@@ -3,6 +3,7 @@ length = int(input())
 cake_pieces = width * length
 cake_is_over = False
 command = input()
+
 while command != "STOP":
     current_number_of_pieces = int(command)
     cake_pieces -= current_number_of_pieces

@@ -4,16 +4,16 @@ figure = input("")
 
 if figure == "square":
     a = float(input())
-    area1 = a*a
+    area1 = a * a
     print(f'{area1:.3f}')
 elif figure == "rectangle":
     a = float(input())
     b = float(input())
-    area2 = a*b
+    area2 = a * b
     print(f'{area2:.3f}')
 elif figure == "circle":
     r = float(input())
-    area3 = pi * (r*r)
+    area3 = pi * (r * r)
     print(f'{area3:.3f}')
 elif figure == "triangle":
     b = float(input())

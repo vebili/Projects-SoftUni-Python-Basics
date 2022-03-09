@@ -2,6 +2,7 @@ month = input()
 sleep_days = int(input())
 stuio = 0
 apartment = 0
+
 if month == 'May' or month == 'October':
     stuio = sleep_days * 50
     apartment = sleep_days * 65
@@ -19,4 +20,5 @@ elif month == 'July' or month == 'August':
     apartment = sleep_days * 77
 if 14 < sleep_days:
     apartment *= 0.9
+
 print(f'Apartment: {apartment:.2f} lv.\nStudio: {stuio:.2f} lv.')

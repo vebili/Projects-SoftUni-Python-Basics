@@ -1,12 +1,12 @@
 command = input()
 count_of_steps = 0
+
 while command != 'Going home':
     steps = int(command)
     count_of_steps += steps
     if count_of_steps >= 10000:
         break
     command = input()
-
 else:
     steps_to_home = int(input())
     count_of_steps += steps_to_home

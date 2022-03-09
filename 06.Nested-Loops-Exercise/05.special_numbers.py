@@ -1,6 +1,7 @@
 numbers = int(input())
 counter = 0
 counter_1 = 0
+
 for x in range(1111, 10000):
     for letter in str(x):
         counter_1 += 1

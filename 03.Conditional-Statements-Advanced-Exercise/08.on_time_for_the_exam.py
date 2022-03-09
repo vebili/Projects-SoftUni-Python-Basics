@@ -4,6 +4,7 @@ hour_income = int(input())
 minutes_income = int(input())
 test = hour_test * 60 + minutes_test
 income = hour_income * 60 + minutes_income
+
 if test == income:
     print("On time")
 elif 0 < test - income <= 30:
