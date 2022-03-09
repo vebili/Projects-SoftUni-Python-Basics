@@ -11,7 +11,6 @@ tens2 = number2 // 10 % 10
 hundreds2 = number2 // 100 % 10
 thousands2 = number2 // 1000
 
-
 for thousands in range(thousands1, thousands2 + 1):
     for hundreds in range(hundreds1, hundreds2 + 1):
         for tens in range(tens1, tens2 + 1):

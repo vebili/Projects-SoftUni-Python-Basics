@@ -11,9 +11,11 @@ price_of_keychains = number_of_keychains * 3.60
 price_of_cartoons = number_of_cartoons * 18.20
 price_of_lucky_surprises = number_of_lucky_surprises * 22
 
-sum_prices = price_of_keychains + price_of_wax_roses + price_of_lucky_surprises + price_love_messages + price_of_cartoons
+sum_prices = price_of_keychains + price_of_wax_roses + price_of_lucky_surprises\
+             + price_love_messages + price_of_cartoons
 
-num_of_articles = number_of_love_messages + number_of_lucky_surprises + number_of_keychains + number_of_wax_roses + number_of_cartoons
+num_of_articles = number_of_love_messages + number_of_lucky_surprises + number_of_keychains\
+                  + number_of_wax_roses + number_of_cartoons
 
 if num_of_articles >= 25:
     sum_prices = sum_prices * 0.65
