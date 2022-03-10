@@ -3,7 +3,7 @@ hours_per_day = int(input())
 
 price = 0
 price_per_day = 0
-
+day = 0
 for day in range(1, days + 1):
     if day > 1:
         print(f'Day: {day - 1} - {price_per_day:.2f} leva')

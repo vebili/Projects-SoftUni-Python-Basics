@@ -20,4 +20,5 @@ while winner != 'End of battle':
 
 if winner == 'End of battle':
     print(
-        f"Player one has {number_of_eggs_player_one} eggs left.\nPlayer two has {number_of_eggs_player_two} eggs left.")
+        f"Player one has {number_of_eggs_player_one} eggs left.\n"
+        f"Player two has {number_of_eggs_player_two} eggs left.")
