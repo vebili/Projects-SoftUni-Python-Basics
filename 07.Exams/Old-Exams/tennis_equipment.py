@@ -10,7 +10,7 @@ money = (price_of_sneakers * number_of_sneakers + number_of_rockets * price_of_r
 equipment = (price_of_sneakers * number_of_sneakers + number_of_rockets * price_of_rocket) * 0.2
 total_money = money + equipment
 
-sponsor_must_pay = math.ceil(total_money * 7/8)
+sponsor_must_pay = math.ceil(total_money * 7 / 8)
 djokovic_to_pay = math.floor(total_money / 8)
 
 print(f"Price to be paid by Djokovic {djokovic_to_pay}")

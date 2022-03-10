@@ -1,4 +1,5 @@
 import math
+
 guests = int(input())
 budget = int(input())
 

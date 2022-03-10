@@ -25,8 +25,8 @@ else:
 if days > 7:
     days -= 1
 total = days * price
-if city != "Bansko" and city != "Borovets" and city != "Varna" and city != "Burgas"\
-        or packet != 'noEquipment' and packet != "withEquipment" and packet != "noBreakfast"\
+if city != "Bansko" and city != "Borovets" and city != "Varna" and city != "Burgas" \
+        or packet != 'noEquipment' and packet != "withEquipment" and packet != "noBreakfast" \
         and packet != "withBreakfast":
     flag = False
     print("Invalid input!")
