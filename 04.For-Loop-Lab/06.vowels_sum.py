@@ -1,5 +1,6 @@
 text = input()
 sums = 0
+
 for x in text:
     if x == 'a':
         sums += 1

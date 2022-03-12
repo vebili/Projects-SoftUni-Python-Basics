@@ -7,7 +7,6 @@ time_after_in_minutes = time_in_minutes + 15
 final_hour = time_after_in_minutes // 60
 final_minutes = time_after_in_minutes % 60
 
-
 if final_hour == 24:
     final_hour = 0
 

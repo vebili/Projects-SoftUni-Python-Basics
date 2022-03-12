@@ -1,4 +1,4 @@
-joury = int(input())
+jury = int(input())
 presentation = input()
 presentation_counter = 0
 average = 0
@@ -6,10 +6,10 @@ total = 0
 counter = 0
 while presentation != 'Finish':
     counter += 1
-    for grades in range(joury):
+    for grades in range(jury):
         grade = float(input())
         presentation_counter += grade
-    average += presentation_counter / joury
+    average += presentation_counter / jury
     total += average
     print(f'{presentation} - {average:.2f}.')
     average = 0

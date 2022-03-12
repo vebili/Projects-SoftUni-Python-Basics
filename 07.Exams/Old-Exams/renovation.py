@@ -1,6 +1,5 @@
 import math
 
-
 wall_high = int(input())
 wall_weight = int(input())
 percent_for_windows = int(input())

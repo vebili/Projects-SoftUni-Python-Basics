@@ -3,6 +3,7 @@ season = input()
 sleep_price = 0
 destination = 0
 where_to_sleep = 0
+
 if season == 'summer':
     if budget <= 100:
         sleep_price = budget * 0.3
@@ -27,4 +28,5 @@ if season == 'summer' and not destination == 'Europe':
     where_to_sleep = 'Camp'
 else:
     where_to_sleep = 'Hotel'
+
 print(f'Somewhere in {destination} \n{where_to_sleep} - {sleep_price:.2f}')

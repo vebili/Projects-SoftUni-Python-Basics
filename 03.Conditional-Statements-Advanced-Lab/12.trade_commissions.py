@@ -1,6 +1,7 @@
 city = input()
 sold = float(input())
 price = 0
+
 if sold < 0 or not city == 'Sofia' and not city == 'Varna' and not city == 'Plovdiv':
     print('error')
 elif city == 'Sofia':

@@ -4,6 +4,7 @@ student = 0
 standard = 0
 counter = 0
 movie_counter = 0
+
 while movie != 'Finish':
     free_place = int(input())
     ticket_type = input()

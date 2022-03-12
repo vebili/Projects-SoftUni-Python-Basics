@@ -7,7 +7,7 @@ brackets = n
 spaces = 0
 
 for i in range(1, 2 * n + 7):
-    if i == 1 or i == 2 * n +6:
+    if i == 1 or i == 2 * n + 6:
         print('.' * points + '|' + '\\/' * slashes + '|' + '.' * points)
     if i == 2 or i == 2 * n + 5:
         print('.' * points + '|' + '~' * lang + '|' + '.' * points)
@@ -17,11 +17,11 @@ for i in range(1, 2 * n + 7):
         print('.' * points + '|' + ' ' * (n - 2) + 'FOOD' + ' ' * (n - 2) + '|' + '.' * points)
         spaces -= 1
         brackets += 1
-    if i > 2 and i < n + 3:
+    if 2 < i < n + 3:
         print('.' * points + '|' + ' ' * spaces + '{}' * brackets + ' ' * spaces + '|' + '.' * points)
         spaces += 1
         brackets -= 1
-    if i > n + 4 and i < 2 * n + 5:
+    if n + 4 < i < 2 * n + 5:
         print('.' * points + '|' + ' ' * spaces + '{}' * brackets + ' ' * spaces + '|' + '.' * points)
         spaces -= 1
         brackets += 1

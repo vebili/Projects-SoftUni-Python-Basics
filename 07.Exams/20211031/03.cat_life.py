@@ -1,4 +1,4 @@
-#from math import floor
+# from math import floor
 cat_name = input()
 gender = input()
 

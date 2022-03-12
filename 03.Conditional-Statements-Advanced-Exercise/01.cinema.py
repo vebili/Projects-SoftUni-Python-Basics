@@ -1,10 +1,10 @@
 screening_type = input()
 rows = int(input())
-colums = int(input())
+columns = int(input())
 
 income = 0
 
-cinema_capacity = rows * colums
+cinema_capacity = rows * columns
 
 if screening_type == "Premiere":
     income = cinema_capacity * 12.00

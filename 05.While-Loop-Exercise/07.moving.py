@@ -5,6 +5,7 @@ height = int(input())
 total_volume = width * height * length
 there_is_more_free_space = True
 command = input()
+
 while command != "Done":
     number_of_boxes = int(command)
     total_volume -= number_of_boxes

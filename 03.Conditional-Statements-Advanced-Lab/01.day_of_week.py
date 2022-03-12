@@ -1,4 +1,5 @@
 day = int(input())
+
 if day == 1:
     print('Monday')
 elif day == 2:

@@ -1,6 +1,7 @@
 n = int(input())
 even = 0
 odd = 0
+
 for x in range(1, n + 1):
     number = int(input())
     if x % 2 == 0:

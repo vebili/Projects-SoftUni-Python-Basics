@@ -11,8 +11,8 @@ while word != 'End of words':
     for num, letter in enumerate(word):
         collection += ord(letter)
         if num == 0:
-            if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u' or letter == 'y'\
-                    or letter == 'A' or letter == 'E' or letter == 'I' or letter == 'O' or letter == 'U'\
+            if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u' or letter == 'y' \
+                    or letter == 'A' or letter == 'E' or letter == 'I' or letter == 'O' or letter == 'U' \
                     or letter == 'Y':
                 flag = True
             else:

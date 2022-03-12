@@ -4,6 +4,7 @@ number_to_399 = 0
 number_to_599 = 0
 number_to_799 = 0
 number_big_than_800 = 0
+
 for x in range(n):
     number = int(input())
     if number < 200:

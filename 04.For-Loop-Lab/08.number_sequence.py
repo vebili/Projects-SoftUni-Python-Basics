@@ -3,6 +3,7 @@ import sys
 n = int(input())
 min_number = sys.maxsize
 max_number = -sys.maxsize
+
 for x in range(n):
     num = int(input())
     if min_number > num:

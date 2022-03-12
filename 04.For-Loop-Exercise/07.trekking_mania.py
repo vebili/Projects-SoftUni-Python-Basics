@@ -5,6 +5,7 @@ kilimangaro = 0
 k2 = 0
 everest = 0
 total_people = 0
+
 for group in range(groups):
     people_in_group = int(input())
     total_people += people_in_group

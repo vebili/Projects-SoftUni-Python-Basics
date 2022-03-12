@@ -1,4 +1,5 @@
 from math import floor
+
 width_of_the_ship = float(input())
 length_of_the_ship = float(input())
 height_of_the_ship = float(input())

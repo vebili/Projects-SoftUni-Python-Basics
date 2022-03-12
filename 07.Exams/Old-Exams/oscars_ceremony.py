@@ -1,8 +1,8 @@
 rent = int(input())
 
 statues = rent * 0.7
-cetaring = statues * 0.85
-sound = cetaring / 2
+catering = statues * 0.85
+sound = catering / 2
 
-total_sum = rent + statues + cetaring + sound
+total_sum = rent + statues + catering + sound
 print(f'{total_sum:.2f}')
