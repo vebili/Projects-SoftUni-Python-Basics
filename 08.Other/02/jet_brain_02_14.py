@@ -1,11 +1,11 @@
 print("Операции със списък с числа...")
 # Контролируем код:
 try:
-    nums=eval(input("Въведете числов списък: "))
-    print("Получена стойност: "+str(nums))
-    a=int(nums[0])
-    b=int(nums[3])
-    print(str(a)+"/"+str(b)+"="+str(a/b))
+    nums = eval(input("Въведете числов списък: "))
+    print("Получена стойност: " + str(nums))
+    a = int(nums[0])
+    b = int(nums[3])
+    print(str(a) + "/" + str(b) + "=" + str(a / b))
 # Обработка на изключения:
 except ValueError:
     print("ValueError: грешка при преобразуване!")
