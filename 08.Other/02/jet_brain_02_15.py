@@ -9,6 +9,6 @@ except ZeroDivisionError:
     print("ZeroDivisionError: опит за деление на нула!")
 except IndexError:
     print("IndexError: неверен индекс на елемента!")
-except:
+except ValueError:
     print("Грешка!")
 print("Край на програмата.")
