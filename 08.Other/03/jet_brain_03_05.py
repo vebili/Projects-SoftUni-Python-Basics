@@ -1,14 +1,14 @@
-Alpha=5*[0]
+Alpha = 5 * [0]
 print(Alpha)
-Bravo=(1,)*3
+Bravo = (1,) * 3
 print(Bravo)
-Charlie=[1,2]*3
+Charlie = [1, 2] * 3
 print(Charlie)
-Delta=[[1,2]]*3
+Delta = [[1, 2]] * 3
 print(Delta)
-Echo=4*(1,[2,3])
+Echo = 4 * (1, [2, 3])
 print(Echo)
-Foxtrot=([1]*2)*3
+Foxtrot = ([1] * 2) * 3
 print(Foxtrot)
-Golf=([1]*2,)*3
+Golf = ([1] * 2,) * 3
 print(Golf)
