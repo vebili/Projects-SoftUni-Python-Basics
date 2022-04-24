@@ -10,7 +10,7 @@ time = time + check_minutes
 
 if time < 0:
     bonus = 1.5
-elif time >= 0 and time <= 30:
+elif 0 <= time <= 30:
     bonus = 1
 elif time > 30:
     bonus = 0.5
