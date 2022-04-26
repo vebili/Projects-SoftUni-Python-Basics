@@ -15,6 +15,7 @@ def rands(m, n):
     res = [[randint(0, 9) for i in range(n)] for j in range(m)]
     return res
 
+
 # Функция за създаване на вложен списък от букви:
 def symbs(m, n):
     val = 'A'
@@ -24,6 +25,7 @@ def symbs(m, n):
             res[i][j] = val
             val = chr(ord(val) + 1)
     return res
+
 
 # Създаване на вложен списък:
 A = [[(j + 1) * 10 + i + 1 for i in range(5)] for j in range(3)]
