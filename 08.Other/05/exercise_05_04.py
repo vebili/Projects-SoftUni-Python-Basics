@@ -1,25 +1,25 @@
 # Изходен текст:
-txt="Hello Python"
+txt = "Hello Python"
 print(txt)
 # Текст в обратен ред:
-A=txt[::-1]
+A = txt[::-1]
 print(A)
 # Първата дума в текста:
-B=txt[:5]
+B = txt[:5]
 print(B)
 # Последната дума в текста:
-C=txt[6:]
+C = txt[6:]
 print(C)
 # Променлива с текстова стойност:
-new_txt=""
+new_txt = ""
 # Променлива с целочислена стойност:
-delta=ord("a")-ord("A")
+delta = ord("a") - ord("A")
 # Обхождане на символите в текста:
 for s in txt:
     # Ако буквата е в диапазона от "a" до "z":
-    if(ord(s)>=ord("a") and ord(s)<=ord("z")):
-        s=chr(ord(s)-delta)
+    if (ord(s) >= ord("a") and ord(s) <= ord("z")):
+        s = chr(ord(s) - delta)
     # Добавяне на символ в текста:
-    new_txt+=s
+    new_txt += s
 # Текст от големи букви:
 print(new_txt)
