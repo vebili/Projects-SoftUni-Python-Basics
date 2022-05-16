@@ -1,4 +1,4 @@
-txt="Езикът PYTHON е по-прост от езика JAVA!"
+txt = "Езикът PYTHON е по-прост от езика JAVA!"
 print(txt)
 print(txt.upper())
 print(txt.lower())
