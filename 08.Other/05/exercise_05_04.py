@@ -17,7 +17,7 @@ delta = ord("a") - ord("A")
 # Обхождане на символите в текста:
 for s in txt:
     # Ако буквата е в диапазона от "a" до "z":
-    if (ord(s) >= ord("a") and ord(s) <= ord("z")):
+    if ord(s) >= ord("a") and ord(s) <= ord("z"):
         s = chr(ord(s) - delta)
     # Добавяне на символ в текста:
     new_txt += s
