@@ -9,7 +9,8 @@ room_space = (height_of_the_astronauts + 0.40) * 2 * 2
 
 total_room_space = floor(rocket_space / room_space)
 
-if total_room_space >= 3 and total_room_space <= 10:
+# if total_room_space >= 3 and total_room_space <= 10:
+if 3 <= total_room_space <= 10:
     print(f"The spacecraft holds {total_room_space} astronauts.")
 elif total_room_space < 3:
     print("The spacecraft is too small.")
