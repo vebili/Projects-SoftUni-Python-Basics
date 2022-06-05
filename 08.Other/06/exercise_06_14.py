@@ -2,7 +2,7 @@
 # Функция за изчисляване на сумата на числа:
 def mysum(n):
     if n == 0:
-        return 0;
+        return 0
     else:
         return n + mysum(n - 1)
 
