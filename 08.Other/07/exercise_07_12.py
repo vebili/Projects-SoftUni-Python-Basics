@@ -1,7 +1,7 @@
 # Четене на текста:
-txt=input("Въведете текст: ")
+txt = input("Въведете текст: ")
 # Файлът се отваря за запис:
-mf=open("Н:\\Book\\Python\\mytext.txt",'w')
+mf = open("F:\\Book\\Python\\mytext.txt", 'w')
 # Текстът се записва във файла:
 mf.write(txt)
 # Затваряне на файла:
