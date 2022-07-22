@@ -2,9 +2,9 @@ print("Започва копиране на файла")
 # Контролируем код:
 try:
     # Отваряме бинарен файл за четене:
-    A=open("Н:\\Book\\animal.jpg","rb")
+    A = open("Н:\\Book\\animal.jpg", "rb")
     # Създаване на бинарен файл:
-    B=open("Н:\\Book\\Python\\bear.jpg","xb")
+    B = open("Н:\\Book\\Python\\bear.jpg", "xb")
     # Четене съдържанието на първия файл
     # и записване във втория:
     B.write(A.read())
