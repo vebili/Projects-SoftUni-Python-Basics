@@ -16,6 +16,6 @@ try:
 except FileExistsError:
     print("Грешка: такъв файл вече съществува")
 # Всички други грешки:
-except:
+except FileNotFoundError:
     print("Грешка при достъпа до файла")
 print("Изпълнението на програмата завърши")
