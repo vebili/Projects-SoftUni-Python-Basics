@@ -1,14 +1,17 @@
 # Описание на клас:
 class MyClass:
     # Метод за присвояване на стойност на полето:
-    def set(self,n):
-        self.number=n
+    def set(self, n):
+        self.number = n
+
     # Метод за показване на стойността на полето:
     def show(self):
-        print("Поле number =",self.number)
+        print("Поле number =", self.number)
+
+
 # Създаване на обекти:
-A=MyClass()
-B=MyClass()
+A = MyClass()
+B = MyClass()
 # Присвояване на стойности на полетата на обектите:
 A.set(100)
 B.set(200)
@@ -16,8 +19,8 @@ B.set(200)
 A.show()
 B.show()
 # Присвояване на стойности на полетата на обектите:
-A.number=123
-B.number=321
+A.number = 123
+B.number = 321
 # Проверка на стойностите на полетата на обектите:
 A.show()
 B.show()
