@@ -1,6 +1,9 @@
 # Описание на клас:
 class MyClass:
     # Метод за присвояване на стойност на полето:
+    def __init__(self):
+        self.number = None
+
     def set(self, n):
         self.number = n
 
