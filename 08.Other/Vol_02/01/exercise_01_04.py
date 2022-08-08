@@ -2,7 +2,7 @@
 class MyClass:
     # Конструктор:
     def __init__(self,n="Бял"):
-        self.name=n;
+        self.name=n
         print("Създаден е обект:",self.name)
     # Деструктор:
     def __del__(self):
