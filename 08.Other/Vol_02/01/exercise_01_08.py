@@ -7,6 +7,7 @@ class Alpha:
 class Bravo:
     name = "Bravo"
 
+    @staticmethod
     def display():
         print("Поле name:", Bravo.name)
 
