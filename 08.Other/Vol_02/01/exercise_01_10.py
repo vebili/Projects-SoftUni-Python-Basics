@@ -1,10 +1,10 @@
 # Първи клас:
 class Alpha:
-    "Това е клас Alpha"
+    """Това е клас Alpha"""
     pass
 # Втори клас:
 class Bravo:
-    "Това е клас Bravo"
+    """Това е клас Bravo"""
     pass
 # Информация за класовете:
 print(Alpha.__doc__)
