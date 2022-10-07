@@ -1,5 +1,5 @@
-from fractions import Fraction
 from decimal import Decimal
+from fractions import Fraction
 
 print("Дробни стойности:")
 A = Fraction(2, 5)
