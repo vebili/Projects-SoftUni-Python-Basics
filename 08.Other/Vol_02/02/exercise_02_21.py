@@ -19,7 +19,7 @@ class Bravo:
     def __init__(self, nums):
         L = []
         for n in nums:
-            if n < 10 and n > 0:
+            if 10 > n > 0:
                 L.append(n)
         self.digits = L
         self.position = -1
