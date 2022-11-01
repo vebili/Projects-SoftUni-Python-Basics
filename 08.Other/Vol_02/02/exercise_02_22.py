@@ -5,7 +5,7 @@ class MyClass:
         L = []
         for v in vals:
             if type(v) == int:
-                if v < 10 and v > 0:
+                if 10 > v > 0:
                     L.append(v)
         self.digits = L
         self.position = -1
