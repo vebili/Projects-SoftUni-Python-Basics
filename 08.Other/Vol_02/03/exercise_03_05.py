@@ -1,13 +1,16 @@
 # Клас на изключение:
 class MyError(Exception):
     # Конструктор:
-    def __init__(self,code=0,msg="Изключение MyError"):
-        self.code=code
-        self.message=msg
+    def __init__(self, code=0, msg="Изключение MyError"):
+        self.code = code
+        self.message = msg
+
     # Метод за привеждане в текстов формат:
     def __str__(self):
-        txt=self.message+"\nКод на грешката: "+str(self.code)
+        txt = self.message + "\nКод на грешката: " + str(self.code)
         return txt
+
+
 # Външен блок с контролируем код:
 try:
     print("Създаваме собствена грешка")
@@ -19,8 +22,8 @@ try:
     except MyError as error:
         print(error)
         # Изменение на параметрите на обекта на грешката:
-        error.code=321
-        error.message="Същата грешка MyError"
+        error.code = 321
+        error.message = "Същата грешка MyError"
         # Повторно генериране на изключението:
         raise
 # Външен блок за обработка на изключението:
