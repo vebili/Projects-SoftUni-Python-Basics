@@ -4,14 +4,14 @@ from time import sleep
 
 # Функция за изпълнение в нишка:
 def display(txt):
-    A = [1, 2]
-    B = ["A", "B"]
+    a = [1, 2]
+    b = ["A", "B"]
     sleep(1)
     # Изчакване поставяне на флаг:
     myevent.wait()
     # Отмяна на флага:
     myevent.clear()
-    for a in A:
+    for a in a:
         print("[", a, "] ", txt, sep="")
     # Поставяне на флаг:
     myevent.set()
@@ -20,7 +20,7 @@ def display(txt):
     myevent.wait()
     # Отмяна на флага:
     myevent.clear()
-    for b in B:
+    for b in b:
         print("[", b, "] ", txt, sep="")
     # Поставяне на флаг:
     myevent.set()
