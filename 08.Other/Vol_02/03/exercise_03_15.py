@@ -1,32 +1,36 @@
 from threading import *
 from time import sleep
+
+
 # Функция за извикване в нишка:
 def mysum():
     # Глобална променлива:
     global num
     # Добавка към сумата:
-    k=1
+    k = 1
     # Текст за показване:
-    txt=str(num)
+    txt = str(num)
     # Изчисление на сумата:
     while myevent.is_set():
         # Към сумата се прибавя слагаемо:
-        num+=k
+        num += k
         # Нова стойност за текста:
-        txt+=" + "+str(k)
+        txt += " + " + str(k)
         # Показване на текущата стойност на сумата:
-        print("[",k,"] ",txt," = ",num,sep="")
+        print("[", k, "] ", txt, " = ", num, sep="")
         # Добавка за следващата итерация:
-        k+=1
+        k += 1
         # Пауза в изпълнението на нишката:
         sleep(0.3)
+
+
 print("Сума на цели числа")
 # Създаване на обект на дъщерната нишка:
-t=Thread(target=mysum)
+t = Thread(target=mysum)
 # Начална стойност за сумата:
-num=0
+num = 0
 # Обект са синхронизация на нишките:
-myevent=Event()
+myevent = Event()
 # Поставяне на флаг:
 myevent.set()
 # Стартиране на дъщерната нишка:
@@ -39,4 +43,4 @@ myevent.clear()
 if t.is_alive():
     t.join()
 # Резултат от изчисленията:
-print("Резултат:",num)
+print("Резултат:", num)
