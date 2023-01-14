@@ -158,8 +158,8 @@ y2 = y1 + h
 # Създаване на правоъгълника:
 Rtn = cnv.create_rectangle(x1, y1, x2, y2, fill=clr_R1)
 # Създаване на обектите с изображенията:
-img_1 = PhotoImage(file="H:\\Book\\Python\\Examples\\Pictures\\sad.png")
-img_2 = PhotoImage(file="H:\\Book\\Python\\Examples\\Pictures\\smile.png")
+img_1 = PhotoImage(file="C:\\Book\\Python\\Examples\\Pictures\\sad.png")
+img_2 = PhotoImage(file="C:\\Book\\Python\\Examples\\Pictures\\smile.png")
 # Създаване на обекта на изображението:
 Pct = cnv.create_image(W - 20, H - 20, anchor=SE, image=img_1)
 # Регистрация на обработчици:
