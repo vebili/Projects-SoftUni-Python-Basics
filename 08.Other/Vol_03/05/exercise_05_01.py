@@ -35,8 +35,8 @@ txt.close()
 # Четене на целия ред
 print("** Reading the whole line")
 txt = open("text.txt", "r", encoding='utf-8')
-print(txt.readline())       # Ред 1
-print(txt.readline())       # Ред 2
+print(txt.readline())  # Ред 1
+print(txt.readline())  # Ред 2
 txt.close()
 
 # Четене на целия файл в списък
@@ -55,5 +55,5 @@ txt.close()
 print("** Read the file in-line:")
 txt = open("text.txt", "r", encoding='utf-8')
 for line in txt:
-      print(line)
+    print(line)
 txt.close()
