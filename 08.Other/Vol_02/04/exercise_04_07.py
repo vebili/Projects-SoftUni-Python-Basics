@@ -32,7 +32,7 @@ def msMotion(evt):
     # Координати на правоъгълника:
     Rxy = cnv.coords(Rtn)
     # Координати на окръжността:
-    Cxy = cnv.coords(Crl)
+    cxy = cnv.coords(Crl)
     # Координати на центъра на окръжността:
     x0 = (Cxy[2] + Cxy[0]) / 2
     y0 = (Cxy[3] + Cxy[1]) / 2
