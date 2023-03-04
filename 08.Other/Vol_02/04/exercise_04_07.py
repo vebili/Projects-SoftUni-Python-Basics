@@ -30,7 +30,7 @@ def msMotion(evt):
     cnv.create_line(x, 5, x, H - 5, fill=clr_C1, width=2, tag="ln")
     cnv.create_line(5, y, W - 5, y, fill=clr_C1, width=2, tag="ln")
     # Координати на правоъгълника:
-    Rxy = cnv.coords(Rtn)
+    rxy = cnv.coords(Rtn)
     # Координати на окръжността:
     cxy = cnv.coords(Crl)
     # Координати на центъра на окръжността:
